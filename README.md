@@ -1,12 +1,8 @@
 <div align="center">
 
-# Hey, I'm Adam
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:00FF41,100:0a0a0a&height=220&section=header&text=&fontSize=0&animation=twinkling" width="100%"/>
 
-**Cybersecurity Professional | SOC Analyst | Offensive Security Researcher**
-
-`Winnipeg, MB` · [`securi-tee.com`](https://securi-tee.com) · [`LinkedIn`](https://linkedin.com/in/adam-takeuchi)
-
----
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%24+whoami;Cybersecurity+%7C+SOC+Analyst+%7C+Offensive+Security)](https://git.io/typing-svg)
 
 *"Acta non verba."*
 
@@ -25,7 +21,7 @@ Security operations professional who builds, breaks, and defends. Hands-on exper
 
 I don't just study security — I build labs, run attacks, write detections, and document everything.
 
-## `>_ cat /home/adam/projects`
+## `>_ cat /projects`
 
 ### 🔵 SOC Analyst Homelab — SIEM & SOAR Detection Lab
 **`ELK Stack` `Sysmon` `Winlogbeat` `Atomic Red Team` `Tines` `Windows Server` `Active Directory`**
@@ -33,65 +29,60 @@ I don't just study security — I build labs, run attacks, write detections, and
 Full SOC environment built from scratch to simulate enterprise threat detection and response:
 - **Architecture:** 3-VM environment — Ubuntu SIEM server, Windows Server 2019 Domain Controller, Windows 11 domain-joined endpoint
 - **SIEM:** Elasticsearch + Kibana ingesting Sysmon logs via Winlogbeat from both Windows endpoints
-- **Threat Simulation:** Executed 7+ MITRE ATT&CK techniques using Atomic Red Team including credential dumping (T1003.001), process injection (T1055.001), registry persistence (T1547.001), scheduled tasks (T1053.005), and masquerading (T1036.003)
-- **Detection Engineering:** Built KQL detection rules for each technique with sub-60-second detection latency
-- **SOAR Automation:** Tines workflow — webhook alert ingestion → email notification → VirusTotal threat enrichment → Google Sheets case logging
-
-> 📝 **Detailed write-up coming soon on [securi-tee.com](https://securi-tee.com)**
+- **Threat Simulation:** 7+ MITRE ATT&CK techniques via Atomic Red Team — credential dumping (T1003.001), process injection (T1055.001), registry persistence (T1547.001), scheduled tasks (T1053.005), masquerading (T1036.003)
+- **Detection Engineering:** KQL detection rules for each technique with sub-60-second detection latency
+- **SOAR Automation:** Tines workflow — webhook ingestion → email notification → VirusTotal enrichment → case logging
 
 ---
 
 ### 🔴 Offensive Security Research
 **`Burp Suite` `Nmap` `SQLMap` `Shodan` `Metasploit`**
 
-Active bug bounty researcher on HackerOne targeting 10+ programs. Identifying and validating vulnerabilities including XSS, SQLi, IDOR, CSRF, SSRF, authentication bypass, and cloud misconfigurations.
+Active bug bounty researcher on HackerOne across 10+ programs. Targeting web apps, APIs, and cloud infrastructure for vulnerabilities including XSS, SQLi, IDOR, CSRF, SSRF, auth bypass, and cloud misconfigurations.
 
 ---
 
 ### 🛡️ DevSecOps Security Automation Platform
 **`Ruby on Rails` `TypeScript` `Go` `GitLab CI/CD`**
 
-Full-stack security automation platform integrating SAST/dependency scanning into CI/CD pipelines. Built RESTful APIs for vulnerability management and compliance reporting with Brakeman and Bundle-Audit integration.
+Full-stack security automation platform integrating SAST/dependency scanning into CI/CD pipelines with Brakeman and Bundle-Audit for vulnerability management and compliance reporting.
 
 ---
 
 ### ☁️ AWS Cloud Security Automation
 **`Python` `Terraform` `AWS Lambda` `CloudWatch` `DynamoDB` `API Gateway`**
 
-Automated cloud security assessment system using Python Lambda functions for infrastructure scanning. Infrastructure-as-code with Terraform, REST API via API Gateway, and DynamoDB for scalable storage of security findings.
+Automated cloud security assessment system — Python Lambda functions for infrastructure scanning, Terraform IaC for reproducible deployments, REST API via API Gateway for programmatic access to findings.
 
 ---
 
 ### 🔍 Threat Intelligence Aggregator
-**`Python` `Flask` `PostgreSQL` `Web Scraping`**
+**`Python` `Flask` `PostgreSQL`**
 
-Flask web application aggregating threat intelligence from multiple OSINT sources via RSS feeds and security news APIs. PostgreSQL backend for efficient storage and querying of threat indicators and security advisories.
+Flask web app aggregating threat intelligence from multiple OSINT sources via RSS feeds and security news APIs. PostgreSQL backend for storage and querying of threat indicators and advisories.
 
 ## `>_ skills --list`
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│ BLUE TEAM          │ SIEM (ELK Stack), SOAR (Tines), Sysmon,    │
-│                    │ Winlogbeat, Detection Engineering,          │
-│                    │ Log Analysis, Incident Response,            │
-│                    │ Digital Forensics, MITRE ATT&CK             │
-├──────────────────────────────────────────────────────────────────┤
-│ RED TEAM           │ Burp Suite, Nmap, SQLMap, Shodan,           │
-│                    │ Metasploit, Atomic Red Team, OWASP Top 10   │
-├──────────────────────────────────────────────────────────────────┤
-│ CLOUD              │ AWS (Lambda, EC2, S3, CloudWatch,           │
-│                    │ CloudFormation), Azure AD, Terraform,       │
-│                    │ Docker, Kubernetes                          │
-├──────────────────────────────────────────────────────────────────┤
-│ PROGRAMMING        │ Python, Bash, PowerShell, JavaScript,       │
-│                    │ Go, Ruby, SQL                               │
-├──────────────────────────────────────────────────────────────────┤
-│ SYSTEMS            │ Windows Server, Active Directory, Linux     │
-│                    │ (Ubuntu/RedHat), VMware, TCP/IP, DNS        │
-├──────────────────────────────────────────────────────────────────┤
-│ GRC                │ ISO 27001, NIST CSF, Risk Assessment,       │
-│                    │ Security Awareness Training, ISMS           │
-└──────────────────────────────────────────────────────────────────┘
+┌─────────────────────┬────────────────────────────────────────────────┐
+│ BLUE TEAM           │ ELK Stack, Tines, Sysmon, Winlogbeat,         │
+│                     │ Detection Engineering, Log Analysis,           │
+│                     │ Incident Response, MITRE ATT&CK               │
+├─────────────────────┼────────────────────────────────────────────────┤
+│ RED TEAM            │ Burp Suite, Nmap, SQLMap, Shodan,              │
+│                     │ Metasploit, Atomic Red Team, OWASP Top 10     │
+├─────────────────────┼────────────────────────────────────────────────┤
+│ CLOUD               │ AWS (Lambda, EC2, S3, CloudWatch,              │
+│                     │ CloudFormation), Azure AD, Terraform, Docker   │
+├─────────────────────┼────────────────────────────────────────────────┤
+│ PROGRAMMING         │ Python, Bash, PowerShell, JavaScript, Go, SQL │
+├─────────────────────┼────────────────────────────────────────────────┤
+│ SYSTEMS             │ Windows Server, Active Directory,              │
+│                     │ Linux (Ubuntu/RedHat), VMware, TCP/IP, DNS    │
+├─────────────────────┼────────────────────────────────────────────────┤
+│ GRC                 │ ISO 27001, NIST CSF, Risk Assessment,         │
+│                     │ Security Awareness Training, ISMS             │
+└─────────────────────┴────────────────────────────────────────────────┘
 ```
 
 ## `>_ cat /etc/certs`
@@ -102,27 +93,19 @@ Flask web application aggregating threat intelligence from multiple OSINT source
 | TryHackMe SOC Analyst Level 1 | ✅ Complete |
 | AWS Knowledge: Cloud Essentials | ✅ Complete |
 | Linux Foundation: Intro to Kubernetes | ✅ Complete |
-| eJPT (eLearnSecurity Junior Penetration Tester) | 🔄 In Progress |
+| eJPT | 🔄 In Progress |
 
-## `>_ history`
+## `>_ history --recent`
 
-- 🏆 **Long Con Infosec Conference CTF** — Scored 306/150 points (2024)
-- 🔵 **Holmes CTF** — Blue team competition: memory forensics, log analysis, threat hunting (2025)
-- 🥇 **Skills Manitoba IT Competition** — 5th Place (2023)
-- 🎓 **MITT** — Diploma in Cyber Defence & Cloud Administration (3.8 GPA)
-- 🔒 **ISO 27001 Implementation** — Led compliance initiatives for $2M+ enterprise contract
-- 🦠 **Ransomware Incident Response** — Primary technical resource for active attack recovery
-
-## `>_ ping me`
-
-- 🌐 Blog: [securi-tee.com](https://securi-tee.com)
-- 💼 LinkedIn: [adam-takeuchi](https://linkedin.com/in/adam-takeuchi)
-- 📧 Email: amtakeuchi1@gmail.com
-
----
+🏆 **Long Con Infosec Conference CTF** — 306/150 points (2025)
+🔵 **Holmes CTF** — Blue team: memory forensics, log analysis, threat hunting (2025)
+🛡️ **ISO 27001 Implementation** — Led compliance for $2M+ enterprise contract
+🦠 **Ransomware Incident Response** — Primary technical resource, full recovery
 
 <div align="center">
 
-*Building, breaking, and defending — one lab at a time.*
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:00FF41,100:0a0a0a&height=120&section=footer&text=&fontSize=0" width="100%"/>
 
 </div>
