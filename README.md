@@ -1,6 +1,7 @@
 ┌──(amtakeuchi㉿securi-tee)─[~]
 └─$ cat README.md
-(https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=20&duration=3000&pause=1000&color=00FF41&background=0D1117&vCenter=true&repeat=true&width=600&height=35&lines=Guardian+of+data+in+a+world+of+threats.)
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00FF41&background=0D1117&vCenter=true&repeat=true&width=600&height=35&lines=Guardian+of+data+in+a+world+of+threats.)](https://git.io/typing-svg)
 
 >_ pinned
 🔵 SOC Detection Lab — ELK Stack SIEM · Atomic Red Team · Tines SOAR · MITRE ATT&CK
