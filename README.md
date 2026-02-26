@@ -17,8 +17,6 @@
 
 🛡️ **DevSecOps Platform** — CI/CD security automation | SAST, dependency scanning
 
-☁️ **Cloud Security** — AWS Lambda, Terraform, automated infrastructure scanning
-
 🔍 **Threat Intel Aggregator** — Flask + PostgreSQL OSINT collection
 
 ---
