@@ -15,7 +15,7 @@
 
 🛡️ **DevSecOps Platform** — CI/CD security automation | SAST, dependency scanning
 
-🔍 **Threat Intel Aggregator** — Flask · PostgreSQL · OSINT collection
+🔍 **Cyberfeed_V2** — Flask · PostgreSQL · OSINT collection
 
 ---
 
