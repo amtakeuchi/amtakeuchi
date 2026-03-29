@@ -11,9 +11,9 @@
 
 🔵 **SOC Detection Lab** — ELK Stack SIEM · Atomic Red Team · Tines SOAR · MITRE ATT&CK
 
-🔴 **RED TEAM COMING SOON** 
+🛡️ **Application Security Audit** — Claude Code · Semgrep SAST · OWASP ZAP DAST
 
-🛡️ **DevSecOps Platform** — CI/CD security automation | SAST, dependency scanning
+🔴 **RED TEAM COMING SOON** 
 
 🔍 **Cyberfeed_V2** — Flask · PostgreSQL · OSINT collection
 
