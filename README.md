@@ -1,9 +1,6 @@
-<img align="left" width="150" height="150" src="assets/avatar-rounded.png" alt="Adam Takeuchi" />
 <img width="700" src="assets/hero.svg" alt="Adam Takeuchi — Cybersecurity Consultant & Researcher · offense ⇄ defense" />
 
-<br clear="left" />
-
-[`securi-tee.com`](https://securi-tee.com) · [`in/adam-takeuchi`](https://www.linkedin.com/in/adam-takeuchi) · [`@securi_tee`](https://x.com/securi_tee) · `contact@securi-tee.com` · `Winnipeg, CA`
+`contact@securi-tee.com` · `Winnipeg, CA`
 
 ---
 
