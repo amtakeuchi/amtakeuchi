@@ -1,6 +1,4 @@
-<img width="700" src="assets/hero.svg" alt="Adam Takeuchi — Cybersecurity Consultant & Researcher · offense ⇄ defense" />
-
-`contact@securi-tee.com` · `Winnipeg, CA`
+<img width="760" src="assets/hero.svg" alt="amtakeuchi@securi-tee — Cybersecurity Consultant & Researcher · offense ⇄ defense" />
 
 ---
 
